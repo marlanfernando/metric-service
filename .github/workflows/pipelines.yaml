@@ -7,8 +7,8 @@ on:
 
 env:
   PROJECT_ID: ${{ secrets.GKE_PROJECT }}
-  GKE_CLUSTER: developeriq-cluster
-  GKE_ZONE: us-central1-c
+  GKE_CLUSTER: gee-test
+  GKE_ZONE: us-central1
   DEPLOYMENT_NAME: metric-service
   IMAGE: niruddya98/metric-service
 #  TAG: 1.0.1
